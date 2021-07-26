@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Formulario de colores</title>
+</head>
+<body>
+    <section>
+        <form id="form" action="" method="get">
+            <div class="name">
+                <h4>Nombre y Apellido:</h4>
+               <!-- <label for="">Nombre y Apellido:</label><br>-->
+                <input type="text" name="name">
+            </div>
+
+            <div class="language">
+                <h4>Lenguajes:</h4>
+            <!--    <label for="">Lenguajes:</label><br>--> 
+            <div class="container-language">
+                <label for=""><input type="checkbox" name="language" value="C">C</label>
+                <label for=""><input type="checkbox" name="language" value="C++">C++</label>
+                <label for=""><input type="checkbox" name="language" value="C#">C#</label>
+                <label for=""><input type="checkbox" name="language" value="Java">Java</label>
+                <label for=""><input type="checkbox" name="language" value="JavaScript">JavaScript</label>
+            </div>
+            </div>
+
+            <div class="colors"> 
+                <h4>Colores:</h4>
+               <!-- <label for="">Colores</label><br>-->
+            <div class="container-colors">
+                <label for=""><input type="radio" name="color" value="rojo">Rojo</label>
+                <label for=""><input type="radio" name="color" value="azul">Azul</label>
+                <label for=""><input type="radio" name="color" value="amarillo">Amarillo</label>
+            </div>
+            </div>
+
+            <div class="container-btn">
+                <button type="button" name="add">Agregar</button>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+        <script src="js/form.js"></script>
+    </section>
+</body>
+</html>

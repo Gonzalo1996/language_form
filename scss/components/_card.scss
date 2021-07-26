@@ -1,0 +1,7 @@
+@mixin card($width) {
+    width: $width;
+    border: 3px solid rgb(44, 156, 91);
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 10px;
+}
